@@ -1,38 +1,66 @@
-.App {
+/* get the required local files */
+@font-face {
+  font-family: "GreatVibes";
+  src: url("./fonts/GreatVibes-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./fonts/Roboto-Bold.ttf");
+}
+
+/* use the font */
+body {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+}
+
+.app {
+  height: 100vh;
+  position: relative;
   text-align: center;
+  box-sizing: border-box;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px;
+  color: white;
+  position: absolute;
+  /* background-color: rgb(166 0 255 / 30%); */
+  background-image: linear-gradient(purple, transparent);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.title {
+  text-align: left;
+  font-family: "GreatVibes", sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 25px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.date-picker {
+  width: 500px;
+  height: 60px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex-item {
+  width: 100%;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
 }
