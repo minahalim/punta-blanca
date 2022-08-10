@@ -1,7 +1,8 @@
-import { DatePicker } from "antd";
 import { useTranslation } from "react-i18next";
 
 import "./App.css";
+import Body from "./components/Body";
+import Header from "./components/Header";
 import backgroundImage from "./imgs/1C5.jpeg";
 
 function App() {
@@ -15,9 +16,8 @@ function App() {
       }}
     >
       <div className="overlay">
-        <div className="flex-item">
-          <DatePicker.RangePicker className="date-picker" />
-        </div>
+        <Header />
+        <Body />
       </div>
       <div className="title">{t("punta-blanca")}</div>
     </div>

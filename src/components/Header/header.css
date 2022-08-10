@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 75px;
+  z-index: 2;
+  position: absolute;
+  right: 25px;
+}
+
+.header-item {
+  display: inline-block;
+	padding: .5em .5em;
+  overflow: hidden;
+  font-size: 0.4em;
+}
+
+.header-item:hover {
+  background-color: rgba(255, 255, 255, 0.089);
+  cursor: pointer;
+  border-radius: 5px;
+}

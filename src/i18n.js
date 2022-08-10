@@ -8,11 +8,17 @@ const resources = {
   en: {
     translation: {
       "punta-blanca": "Punta Blanca",
+      "my-account": "My account",
+      "start-date": "Start date",
+      "end-date": "End date"
     },
   },
   es: {
     translation: {
       "punta-blanca": "Punta Blanca",
+      "my-account": "Mi cuenta",
+      "start-date": "Fecha de inicio",
+      "end-date": "Fecha final"
     },
   },
 };
