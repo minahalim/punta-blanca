@@ -10,7 +10,15 @@ const resources = {
       "punta-blanca": "Punta Blanca",
       "my-account": "My account",
       "start-date": "Start date",
-      "end-date": "End date"
+      "end-date": "End date",
+      "guests-and-bedrooms": "Guests and Bedrooms",
+      "adults-restrictions": "Ages 16 and above",
+      "children-restrictions": "Ages 0-15",
+      guests: "Guests",
+      bedrooms: "Bedrooms",
+      adults: "Adults",
+      children: "Children",
+      search: "Search",
     },
   },
   es: {
@@ -18,7 +26,13 @@ const resources = {
       "punta-blanca": "Punta Blanca",
       "my-account": "Mi cuenta",
       "start-date": "Fecha de inicio",
-      "end-date": "Fecha final"
+      "end-date": "Fecha final",
+      "guests-and-bedrooms": "Huéspedes y Dormitorios",
+      guests: "El invitado",
+      bedrooms: "Dormitorios",
+      adults: "Adulto",
+      children: "Niños",
+      search: "Búsqueda",
     },
   },
 };

@@ -8,6 +8,7 @@ import backgroundImage from "./imgs/1C5.jpeg";
 function App() {
   const { t } = useTranslation();
 
+
   return (
     <div
       className="app"

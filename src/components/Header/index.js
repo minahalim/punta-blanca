@@ -31,8 +31,6 @@ const Header = () => {
     setBaseCurrency('CAD');
   }
 
-  console.log(currencies)
-
   return (
     <div className="header">
       <div className="header-item" onClick={handleLanguageChange}><GlobalOutlined className='icon' /> / {i18n.language.toUpperCase()}</div>
