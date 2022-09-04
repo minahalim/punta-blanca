@@ -35,7 +35,7 @@ const Header = () => {
     <div className="header">
       <div className="header-item" onClick={handleLanguageChange}><GlobalOutlined className='icon' /> / {i18n.language.toUpperCase()}</div>
       <div className="header-item" onClick={handleBaseCurrency}>{baseCurrency}</div>
-      <div className="header-item">{t("my-account")}</div>
+      {/* <div className="header-item">{t("my-account")}</div> */}
     </div>
   );
 };

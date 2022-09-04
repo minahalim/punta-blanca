@@ -18,7 +18,7 @@ const resources = {
       bedrooms: "Bedrooms",
       adults: "Adults",
       children: "Children",
-      search: "Search",
+      book: "Book",
     },
   },
   es: {
@@ -32,7 +32,7 @@ const resources = {
       bedrooms: "Dormitorios",
       adults: "Adulto",
       children: "Niños",
-      search: "Búsqueda",
+      book: "Reservar",
     },
   },
 };
